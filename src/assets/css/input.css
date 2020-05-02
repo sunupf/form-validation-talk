@@ -1,0 +1,33 @@
+.input-group {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.input--error__message,
+label {
+  font-size: 14px;
+  display: block;
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 1px solid #676767;
+}
+
+.input--error .input--error__message,
+.input--error label,
+.input--error input[type='text'] {
+  color: red;
+}
+.input--error input[type='text'] {
+  border: 1px solid red;
+  padding-right: 2.5rem;
+  background-image: url(../icon__alert-circle.svg);
+  background-position: calc(100% - 8px) 50%;
+  background-repeat: no-repeat;
+}

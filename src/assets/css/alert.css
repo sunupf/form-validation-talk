@@ -1,0 +1,10 @@
+.alert {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.alert--notif {
+  background-color: #ffbc00;
+  color: #333;
+}
