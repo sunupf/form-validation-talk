@@ -1,4 +1,3 @@
-// import Validator from 'validatorjs';
 import Validation from '../../modules/validation';
 
 const data = function data() {
@@ -15,7 +14,7 @@ const data = function data() {
 
 const methods = {
   resetPassword: function resetPassword() {
-    this.validation = new Validation({ ...this.data }, this.rules);
+    this.validation = new Validation(this.data, this.rules);
     if (this.validation.isValid) {
       // do something right
     }
