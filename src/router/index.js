@@ -30,11 +30,6 @@ const routes = [
     name: 'Validatejs',
     component: () => import('../views/ValidateJS/index.vue'),
   },
-  {
-    path: '/vue3',
-    name: 'Vue3',
-    component: () => import('../views/Vue3/index.vue'),
-  },
 ];
 
 const router = new VueRouter({

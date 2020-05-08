@@ -6,7 +6,6 @@
       <router-link to="/veevalidate">Veevalidate</router-link> |
       <router-link to="/validatorjs">ValidatorJS</router-link> |
       <router-link to="/validatejs">ValidateJS</router-link> |
-      <router-link to="/vue3">Vue 3</router-link>
     </div>
     <router-view/>
   </div>
