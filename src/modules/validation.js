@@ -23,7 +23,7 @@ export default function Validation(data, rules) {
   };
 
   // default validation object (when it's valid)
-  let validationObject = {
+  const validationObject = {
     isValid,
     isInputError,
     getErrors,
@@ -35,7 +35,7 @@ export default function Validation(data, rules) {
   }
 
   // add errors when it's not valid
-  validationObject = Object.assign(validationObject, errors);
+  validationObject.errors = errors;
 
   return validationObject;
 }
